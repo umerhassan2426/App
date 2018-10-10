@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".radio">
+    tools:context=".share">
     <ImageView
         android:layout_marginLeft="5dp"
-        android:id="@+id/xml7"
+        android:id="@+id/xml14"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circlebackorange"
@@ -14,8 +14,8 @@
         android:src="@drawable/xml"></ImageView>
     <ImageView
         android:layout_marginLeft="80dp"
-        android:layout_toRightOf="@+id/xml7"
-        android:id="@+id/java7"
+        android:layout_toRightOf="@+id/xml14"
+        android:id="@+id/java14"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circlebackyellow"
@@ -23,8 +23,8 @@
         android:src="@drawable/java"></ImageView>
     <ImageView
         android:layout_marginLeft="75dp"
-        android:layout_toRightOf="@+id/java7"
-        android:id="@+id/play7"
+        android:layout_toRightOf="@+id/java14"
+        android:id="@+id/play14"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circlebackgreen"
@@ -33,11 +33,10 @@
 
 
     <FrameLayout
-        android:layout_below="@+id/play7"
+        android:layout_below="@+id/play14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radiochange">
+        android:id="@+id/share">
 
     </FrameLayout>
-
 </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".spinner">
     <ImageView
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="5dp"
         android:id="@+id/xml8"
         android:layout_width="64dp"
         android:layout_height="64dp"

@@ -34,17 +34,6 @@
             android:id="@+id/adv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="EditText"></TextView>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/lightgray"
-            android:layout_margin="10dp"/>
-        <TextView
-            android:textSize="20sp"
-            android:id="@+id/adv3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="Internal Storage"></TextView>
         <View
             android:layout_width="match_parent"
@@ -53,7 +42,7 @@
             android:layout_margin="10dp"/>
         <TextView
             android:textSize="20sp"
-            android:id="@+id/adv4"
+            android:id="@+id/adv3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="External Storage"></TextView>
@@ -65,7 +54,7 @@
 
         <TextView
             android:textSize="20sp"
-            android:id="@+id/adv5"
+            android:id="@+id/adv4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SQLite Database"></TextView>
@@ -85,7 +74,7 @@
             android:text="Notifications"></TextView>
         <TextView
             android:textSize="20sp"
-            android:id="@+id/adv6"
+            android:id="@+id/adv5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Push Notification"></TextView>
@@ -101,10 +90,11 @@
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Web View"
             ></TextView>
         <TextView
             android:textSize="20sp"
-            android:id="@+id/adv7"
+            android:id="@+id/adv6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Web View Layout"></TextView>

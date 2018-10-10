@@ -6,7 +6,7 @@
     tools:context=".image">
 
     <ImageView
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="5dp"
         android:id="@+id/xml4"
         android:layout_width="64dp"
         android:layout_height="64dp"

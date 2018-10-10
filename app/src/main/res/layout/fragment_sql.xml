@@ -3,10 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".radio">
+    tools:context=".sql">
+
     <ImageView
         android:layout_marginLeft="5dp"
-        android:id="@+id/xml7"
+        android:id="@+id/xml17"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circlebackorange"
@@ -14,8 +15,8 @@
         android:src="@drawable/xml"></ImageView>
     <ImageView
         android:layout_marginLeft="80dp"
-        android:layout_toRightOf="@+id/xml7"
-        android:id="@+id/java7"
+        android:layout_toRightOf="@+id/xml17"
+        android:id="@+id/java17"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circlebackyellow"
@@ -23,8 +24,8 @@
         android:src="@drawable/java"></ImageView>
     <ImageView
         android:layout_marginLeft="75dp"
-        android:layout_toRightOf="@+id/java7"
-        android:id="@+id/play7"
+        android:layout_toRightOf="@+id/java17"
+        android:id="@+id/play17"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:background="@drawable/circlebackgreen"
@@ -33,11 +34,10 @@
 
 
     <FrameLayout
-        android:layout_below="@+id/play7"
+        android:layout_below="@+id/play16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/radiochange">
+        android:id="@+id/sql_change">
 
     </FrameLayout>
-
 </RelativeLayout>
