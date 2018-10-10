@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Internal_external">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!-- Internal & External -->
+    <TextView
+
+        android:textSize="21sp"
+        android:id="@+id/internal1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How?"></TextView>
+    <TextView
+        android:layout_below="@id/internal1"
+        android:textSize="16sp"
+        android:id="@+id/internal2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/internal1"></TextView>
+    <TextView
+        android:layout_below="@id/internal2"
+        android:textSize="21sp"
+        android:id="@+id/internal3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Internal storage"></TextView>
+    <TextView
+        android:layout_below="@id/internal3"
+        android:textSize="16sp"
+        android:id="@+id/internal4"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/internal2"></TextView>
+    <ImageView
+        android:layout_below="@id/internal4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/internal1"
+        android:id="@+id/internal5"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@id/internal5"
+        android:textSize="16sp"
+        android:id="@+id/internal6"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/internal3"></TextView>
+    <TextView
+        android:layout_below="@id/internal6"
+        android:textSize="21sp"
+        android:id="@+id/internal7"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Internal storage?"></TextView>
+    <TextView
+        android:layout_below="@id/internal7"
+        android:textSize="16sp"
+        android:id="@+id/internal8"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/internal3"></TextView>
+    <ImageView
+        android:layout_below="@id/internal8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/internal2"
+        android:id="@+id/internal9"
+        android:scaleType="fitStart" />
+    // External Storage
+    <TextView
+        android:layout_below="@id/internal9"
+        android:textSize="21sp"
+        android:id="@+id/external1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="External Storage?"></TextView>
+    <TextView
+        android:layout_below="@id/external1"
+        android:textSize="16sp"
+        android:id="@+id/external2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/external"></TextView>
+    <ImageView
+        android:layout_below="@id/external2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/external"
+        android:id="@+id/external3"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/external3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/external2"
+        android:id="@+id/external4"
+        android:scaleType="fitStart" />
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">AndroidLearner</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="fragment">Fragment</string>
+
+
+    <!-- Android Intro -->
+    <string name="Intro">Android is a complete set of software for mobile devices such as tablet computers, notebooks, smartphones, electronic book readers, set-top boxes etc.
+
+It contains a linux-based Operating System, middleware and key mobile applications.
+
+It can be thought of as a mobile operating system. But it is not limited to mobile only. It is currently used in various devices such as mobiles, tablets, televisions etc.</string>
+
+
+    <string name="Detail"> The history and versions of android are interesting to know. The code names of android ranges from A to J currently, such as Aestro, Blender, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwitch, Jelly Bean, KitKat and Lollipop. Lets understand the android history in a sequence.
+\n1) Initially, Andy Rubin founded Android Incorporation in Palo Alto, California, United States in October, 2003.
+
+\n2) In 17th August 2005, Google acquired android Incorporation. Since then, it is in the subsidiary of Google Incorporation.
+
+\n3) The key employees of Android Incorporation are Andy Rubin, Rich Miner, Chris White and Nick Sears.
+
+\n4) Originally intended for camera but shifted to smart phones later because of low market for camera only.
+
+\n5) Android is the nick name of Andy Rubin given by coworkers because of his love to robots.
+
+\n6) In 2007, Google announces the development of android OS.
+
+\n7) In 2008, HTC launched the first android mobile.</string>
+    <string name="Kernel"> It is the heart of android architecture that exists at the root of android architecture. Linux kernel is responsible for device drivers, power management, memory management, device management and resource access.</string>
+    <string name="libraries"> On the top of linux kernel, their are libraries such as WebKit, OpenGL, FreeType, SQLite, Media, C runtime library (libc) etc.
+
+The WebKit library is responsible for browser support, SQLite is for database, FreeType for font support, Media for playing and recording audio and video formats.</string>
+    <string name="Runtime">In android runtime, there are core libraries and DVM (Dalvik Virtual Machine) which is responsible to run android application. DVM is like JVM but it is optimized for mobile devices. It consumes less memory and provides fast performance.</string>
+    <string name="Framework">On the top of libraries and android runtime, there is android framework. Android framework includes Android API such as UI (User Interface), telephony, resources, locations, Content Providers (data) and package managers. It provides a lot of classes and interfaces for android application development.</string>
+    <string name="Application">On the top of android framework, there are applications. All applications such as home, contact, settings, games, browsers are using android framework that uses android runtime and libraries. Android runtime and native libraries are using linux kernal.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Basic Concept -->
+    <string name="activity">All those things which present something to you with which you can interact are called activities in android application development.\nActivities are nothing but screens.
+</string>
+    <string name="activity2">They draws its user interface (UI) on the screen.\nYour application can have many activities but there is only one main activity, just like in C++ there is only one main function, same way your application have only one main activity.\nMain activity takes care of launching your application.\nAn activity can start any other activity belonging to itself.\nWhen a new activity starts, the previous activity stopped and added to a stack known as back-stack.
+</string>
+    <string name="activity3">There are only two things that can happen either user is using your application or user is not using your application.\nThere should be some kind of way of know whether using is using your activity or not.\nThis can be achieved by using the special methods called Lifecycle Methods.\nThese methods tell whether your activity is being used by the user or not, whether your activity is paused or stopped, these methods tell about the current situation of your activity.
+</string>
+    <string name="activity4">Android OS calls certain methods on your activity to notify whether your application is running or not.
+</string>
+    <string name="intent">So whenever there is an event and an intent is created out of that event, it will be supplied to everybody.\nSuppose you’ve a broadcast receiver, who is actively listening to such events, then that broadcast receiver is going to be connected.\nThere are hundreds of event in Android device that converted into an intent object, and that intent broadcast to everybody in the Android OS.
+</string>
+    <string name="views">The basic building block for user interface is a View.\nView is created from the View class and occupies a rectangular area on the screen.\nView is responsible for drawing and event handling.\nView is the base class for widgets, which are used to create interactive UI components like buttons, text fields, etc.</string>
+    <string name="view2">The View Group is a subclass of View and provides invisible container that hold other Views or other View Groups and define their layout properties.</string>
+    <string name="Layout">Layouts are subclasses of View Group class, and a typical layout defines the visual structure for an Android user interface.\nThe layout defines the visual structure of your application.\nAndroid Studio uses this structure to display the view elements on the screen.\nLayouts are also called view containers.\nA layout may contain any type of views such as buttons, labels, textboxes, and so on.</string>
+    <string name="layout1">android:id - This is the ID which uniquely identifies the layout.\nandroid:baselineAligned - This must be a Boolean value, either "true" or "false" and prevents the layout from aligning its childrens baselines.\nandroid:divider - This is drawable to use as a vertical divider between buttons. You use a color value, in the form of "#RGB", "#ARGB", "#RRGGBB", or "#AARRGGBB".\nandroid:gravity - This specifies how an object should position its content, on both the X and Y axes. Possible values are top, bottom, left, right, center, center_vertical, center_horizontal etc.\nandroid:orientation - This specifies the direction of arrangement and you will use "horizontal" for a row, "vertical" for a column. The default is horizontal.\nandroid:layout_weight – This assigns importance on how much screen a View can relatively occupy compare to others.</string>
+    <string name="layout2">Android RelativeLayout enables you to specify how child views are positioned relative to each other. The position of each view can be specified as relative to sibling elements or relative to the parent.</string>
+    <string name="layout3">Android Table Layout going to be arranged groups of views into rows and columns.
+You will use the Table Row element to build a row in the table. Each row has zero or more cells; each cell can hold one View object.</string>
+    <string name="layout4">You can add many views or View Groups to Frame layout just like the other layouts.\nViews are stacked on the top of each other, for example if you are going to add two buttons, one button is going to be add on the top of other button.\nThis layout is very handy when you want to display one view at given time of instant, and you want to ensure other views hidden from the user site.\nFor example in e-books app you have one page visible at a time and other invisible to user.
+\nThe size of the frame layout is the size of largest view contained inside so smaller views may be stretched.</string>
+    <string name="lyout5">A layout that places its children in a rectangular grid.
+
+The grid is composed of a set of infinitely thin lines that separate the viewing area into cells. Throughout the API, grid lines are referenced by grid indices. A grid with N columns has N + 1 grid indices that run from 0 through N inclusive. Regardless of how GridLayout is configured, grid index 0 is fixed to the leading edge of the container and grid index N is fixed to its trailing edge (after padding is taken into account).</string>
+    <string name="layout6">A ConstraintLayout is a ViewGroup which allows you to position and size widgets in a flexible way.\nThere are currently various types of constraints that you can use:\nRelative positioning\nMargins\nCentering positioning\nCircular positioning\nVisibility behavior\nDimension constraints\nChains\nVirtual Helpers objects\nOptimizer</string>
+    <string name="Ui">Input controls are the interactive components in your apps user interface. Android provides a wide variety of controls you can use in your UI, such as buttons, text fields, seek bars, check box, zoom buttons, toggle buttons, and many more.</string>
+    <string name="ui2">An on/off switch that can be toggled by the user. You should use check box when presenting users with a group of selectable options that are not mutually exclusive.</string>
+    <string name="event">Events are a useful way to collect data about a users interaction with interactive components of Applications. Like button presses or screen touch etc. The Android framework maintains an event queue as first-in, first-out (FIFO) basis. You can capture these events in your program and take appropriate action as per requirements.</string>
+    <string name="event2">There are following three concepts related to <b>Android Event Management</b> \n<b>Event Listeners</b> − An event listener is an interface in the View class that contains a single callback method. These methods will be called by the Android framework when the View to which the listener has been registered is triggered by user interaction with the item in the UI.\n<b>Event Listeners Registration</b> − Event Registration is the process by which an Event Handler gets registered with an Event Listener so that the handler is called when the Event Listener fires the event.\n<b>Handlers</b> − When an event happens and we have registered an event listener for the event, the event listener calls the Event Handlers, which is the method that actually handles the event.</string>
+    <string name="event3">This is called when the user either clicks or touches or focuses upon any widget like button, text, image etc. You will use onClick() event handler to handle such event.</string>
+    <string name="event4">This is called when the user either clicks or touches or focuses upon any widget like button, text, image etc. for one or more seconds. You will use onLongClick() event handler to handle such event.</string>
+    <string name="event5">This is called when the widget looses its focus ie. user goes away from the view item. You will use onFocusChange() event handler to handle such event.</string>
+    <string name="event6">This is called when the user presses the key, releases the key, or any movement gesture on the screen. You will use onTouch() event handler to handle such event.</string>
+    <string name="event7">This is called when the user selects a menu item. You will use onMenuItemClick() event handler to handle such event.</string>
+    <string name="event8">This is called when the context menu is being built(as the result of a sustained "long click)</string>
+    <string name="toast1"><b>Toast</b> is nothing more than a message than appears on the screen or activity of your application.\nIt appears for short durations and then it disappears.</string>
+    <string name="toast2">Giving user feedback regarding some operation.\nIt doesn’t block the activity or the fragment in which it appears.\nIt is not like dialog it just appear on the top of your activity and disappears after a short time.</string>
+    <string name="toast3">We use static method <b>makeToast()</b> with three parameters.
+\n<b>Context,</b> which is simple way to get resources in Android and to access the system level services for example services like GPS, alarm services, notification services and so on.
+\nSo context are the way to those services and you need to pass the context object inside the <b>makeToast()</b> method.
+\nThe next is the <b> CharSequence</b> which is simply the text that you want to display.
+\nAnd at the last is the duration, which can only take two values.</string>
+    <string name="toast4">Both are the static fields inside the Toast class.
+\nAnd after this most important part is to call the <b>show()</b> method with the help of Toast object.\n<b>toast.show()</b>\nYou can display toast even from a service.
+</string>
+    <string name="alert1">A Dialog is small window that prompts the user to a decision or enter additional information.</string>
+    <string name="alert2">In order to make an alert dialog, you need to make an object of AlertDialogBuilder which an inner class of AlertDialog. Its syntax is given below\n<b>AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);</b></string>
+    <string name="adapter1">A bridge between an Adapter View and the underlying data for that view</string>
+    <string name="adapter2">Suppose you have thousand contacts on your phone and you want to display that to the user.
+\nThere are two options.
+\n<b>You can load the thousand contents on your phone at the same time.</b>\n<b>You can load the contents partially on your phone.</b>
+\nFirst approach is going to take a lot of resources, obliviously  you are not going to do that.
+\nIn the second approach where you can load the data partially, you can do something like load 10 contents on your mobile, 20 on your tablet.
+</string>
+    <string name="adapter3">But think about how you will know about how many contents you need to display on a particular device.
+\nBeside this how will you manage the user index, user will scroll up, down, so much management issues as far as data is concerned.
+\nThat’s why android guys have something called <b>Adapter.</b>
+\nYou can use adapter which manages the data for you.
+</string>
+    <string name="adapter4">Adapter takes the data and creates a view out of that data.
+    \nAfter creating the view it gives it to something called <b>adapter view.</b>
+    \nNow this <b>adapter view</b> displays the data just the way you want.
+\nNow remember adapter is only responsible for taking the data or managing the data, adapter view will be responsible for controlling how the data will be displayed.
+</string>
+    <string name="adapter5">Think about it, you can take the data from an array, from a database and so on.
+\nSo there’re different kind of adapters, and then you can display the data vertically in a list, you can display along rows and columns, or you can display that in a drop down menu.
+\nSo there are two things, first that manages the data and second is which displays the data.
+</string>
+    <string name="adapter6">Some views display the view object repeatedly.
+\nJust like a list view, it is nothing but list of views, each view inside the list is an object, and have some data in it, such as name of a person.
+\nAn adapter view contains set of views, that display data from data source.
+\nIt is a kind of design pattern in android.
+\nSo finally adapter access the data and creates a view, that is displayed within the Adapter View.
+</string>
+    <string name="adapter7"><b>List View:</b> It takes the data from list adapter and it displays a vertically scrolling list of view objects, with which user can interact.
+        <b>\nGrid View:</b> It displays a Grid of View objects, with which user can interact.
+        <b>\nSpinner:</b> It is list of items similar to a drop down menu.
+</string>
+    <string name="adapter8"><b>Array Adapter:</b> It takes the data from an array, and creates a view out of it.
+        <b>\nSimple Cursor Adapter:</b>takes a data from a cursor, here cursor is nothing more than an object in android that represents the data taken from the database.
+        <b>\nBase Adapter:</b> It is a custom adapter, which you can define, and customize to how the data should be extracted, how the data should be processed, and how the view should be generated.
+</string>
+    <string name="list1">Android ListView is a view which groups several items and display them in vertical scrollable list. The list items are automatically inserted to the list using an Adapter that pulls content from a source such as an array or database.</string>
+    <string name="list2">When you have large amount of information, view alone is not enough for cover how the data will be displayed.
+\nYou also need something called a model, and that’s why you have something called an adapter.
+\nAn adapter is a class or you can say series of classes, that are responsible for managing, fetch to data, and how to create simple view out of that data.
+\nThen you something called adapter view, it is responsible for how the data should be presented to the user.
+</string>
+    <string name="list3">You have data source, which can be an array inside your java program or it can be database through your cursor.
+\nThis data is fetched by something called list adapter, for each element it fetches, it creates a simple view out of that data, it creates a very simple view like a text view or an image view.
+\nNow this list adapter is actually is an interface, there are many sub-classes, that provide the implementations.
+        \nFor example, <b>\narray adapter</b>, fetches the data from a string array, <b>\nsimple cursor adapter</b> fetches the data from a database <b>\nbase adapter</b> allows you to customize how to fetch data and how to display that as a view.
+\nNow this single view replicated entirely inside your view adapter which is list view in our case.
+\nThis is how the list view works in android.</string>
+    <string name="list4">There are two ways to implement the list view, one you can  have list view like any other view and second way is you can actually extends a class list view.
+\nSo in first we are going to implement list view by using simple activity.</string>
+    <string name="list5"><b>Step 5:</b> Now time to actually create an adapter. As you already know list view is made up of two parts, one part is responsible for taking the data from the data source, the second part is actually responsible for displaying the data.
+\nIn our case list view is responsible for taking the data, but there is an adapter that are responsible for taking data source values and converting them into a simple view.
+\nI have an array data source, so I am going to create an array adapter. An array adapter that will use the data of the type string.</string>
+    <string name="list6">There are three parameters, you have to give to an array adapter.
+    <b>\nFirst is Context</b> itself, for which you can simple use this keyword.
+<b>\nThe second</b> one is for define how a single row should appear inside your list view.
+\nHere you can have two option, either you can define your own layout and say that this is the appearance of a single row or you can use predefined layouts android has already provided.
+    <b>\nThird parameter</b> is simply the data which is days in our case.</string>
+    <string name="frag1">A Fragment is a piece of an activity which enable more modular activity design. It will not be wrong if we say, a fragment is a kind of sub-activity.</string>
+    <string name="frag2">We can combine several fragments in single Activity.
+\nReuse the same Fragment across several activities, because fragments have their own layout which can be used across the many different activities.
+\nOne of many advantages of fragments, is that they make better use of larger screen space on the tablets.
+\nFragments support different layouts on portrait and landscape modes.
+</string>
+    <string name="frag3">Flexible user interfaces across different screen sizes. 
+\nFixed / scrolling / Swipe tab display. 
+\nDialog boxes, which are purely made of using the fragments as of now. 
+\nAll action bar customization with list view and tab modes are possible with fragments.</string>
+    <string name="frag4">Basically fragments are divided as three stages as shown below.
+
+    \n<b>Single frame fragments</b> − Single frame fragments are using for hand hold devices like mobiles, here we can show only one fragment as a view.
+
+    \n<b>List fragments</b> − fragments having special list view is called as list fragment
+
+    \n<b>Fragments transaction</b> − Using with fragment transaction. we can move one fragment to another fragment.</string>
+
+    <string name="frag5">Every activity has its own fragment manger.
+\nIt maintains references to all the fragments inside the activity.
+\nWe can use findFragmentById() or findFragmentByTag() methods to get a reference to a particular fragment inside the activity.</string>
+    <string name="frag6">The act of adding, removing, replacing fragments to an activity are considered as transactions inside android and managed by an object called FragmentTransactions.
+</string>
+    <string name="shared1">It is the simplest mechanism to store the values in android.\nYou don’t have to worry about creating files, file storing APIS, an XML file is created and managed by the Android system. All you got  to do is to put the data into it and get the data from it.</string>
+    <string name="shared2">•	It stores the key-value pair.
+\n•What you want to do is to store the value and then use the appropriate key to access that value later.
+\n•Shared preferences are used by the applications to save the data in keyvalues pairs like in Bundle class.
+\n•Data	is	stored	in	XML	filein	the	directory data/data/package name/shared-prefs folder.
+\n•You don’t have to create and manage this file, everything is done by the Android Studio.
+    \n•Shared preferences only allows you to save primitive data types(that are Boolean, floats, strings, ints and longs).
+</string>
+    <string name="internal1">•How data can be stored in the internal storage or primary memory of your Android phone?
+\n•What kind of data can be stored, it can be images, pdf or text files?</string>
+    <string name="internal2">•Internal storage is all about storing files from your application to your android storage.
+\n•You can read data and you can write data.</string>
+    <string name="internal3">•Internal storage allows you to read and write to the files that are associated with each application memory.\n•These files can only be accessed by the application and can’t be accessed by the other applications or users.
+\n•When the application is uninstalled these files are automatically removed as well.
+\n•So here you are supposed to keep the data which is private to your application.</string>
+    <string name="internal4">•Your application’s internal storage directory is specified by your application’s package name in the special location of the Android file system.
+\n•Other application’s and user can not browse your internal directories and do not have the read and write access until you explicitly set the files to a readable or writable.
+\n•When you use MODE_PRIVATE for your files on the internal storage, they are never accessible to other applications.
+\n•Internal storage is the best option when you want to be sure that neither the user nor the other applications access your files.
+</string>
+    <string name="external">Store files on the shared external file system. This is usually for shared user files, such as photos.
+        \nEvery Android device supports a shared <b>"external storage"</b> space that you can use to save files. This space is called external because its not a guaranteed to be accessible—it is a storage space that users can mount to a computer as an external storage device, and it might even be physically removable (such as an SD card). Files saved to the external storage are world-readable and can be modified by the user when they enable USB mass storage to transfer files on a computer.
+
+\nSo before you attempt to access a file in external storage in your app, you should check for the availability of the external storage directories as well as the files you are trying to access.</string>
+    <string name="sql">•	SQL is language that is designed for managing the data in the relational databases.
+\n•Microsoft Access, SQL Server, MySQL, Oracle, and many other databases, most of these use this language.
+\n•SQLite is scale down version of MySQL, PostgreSQL, and other popular databases.\n•Each application has its own SQLite database. This database is accessible by any class in the application, but not by the others.
+\n•It is self-contained, server-less, transactional and uses the SQL language for executing the queries.</string>
+    <string name="sql1">•We programmatically create the SQLite database of an application, which always stored in data/data/package-name/database folder.</string>
+    <string name="sql2">•SQLiteOpenHelper: It is the class the is responsible for managing, handling the relational database in Android.
+\n•It takes care of opening the database if it exists, creating it if it does not, and upgrading if necessary.
+\n•In Android there is no Integrated Tool available for creating the databases, so you have to programmatically create the databases.</string>
+    <string name="sql3">•In the first step create your own public class and extends the SQLiteOpenHelper class.
+\n•Implement the methods of SQLiteOpenHelper class.\n•	In	the	third	step,	calls	the	super	class	constructor	(	which	in	this	case	is SQLiteOpenHelper ) with the four parameters context, database name, custom cursor, and database version.
+\n•onCreate method is called first time, when the database is created, otherwise it is not called.
+\n•So in this method give the statement with which you want to create the database.
+\n•After creating the query run it with the help of objSQLiteDatabase.execSQL method.
+\n•Try to surround the method with try-catch block.
+\n<b>Schema</b>
+\n•onUpgrade method is used when you want to make any changes to your database.
+\n•In the last create object of your public with which you extended the SQLiteOpenHelper and execute the getWritebaleDatabase method.</string>
+    <string name="json">JSON stands for JavaScript Object Notation.It is an independent data exchange format and is the best alternative for XML.
+    \nAndroid provides four different classes to manipulate JSON data. These classes are <b>JSONArray,JSONObject,JSONStringer and JSONTokenizer</b>.</string>
+
+</resources>

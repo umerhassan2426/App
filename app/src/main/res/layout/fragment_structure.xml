@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".structure">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Project Structure -->
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/strut1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Project Structure:"></TextView>
+    <ImageView
+        android:layout_below="@id/strut1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/strut"
+        android:id="@+id/strut2"
+        android:scaleType="fitStart"
+        />
+    <TextView
+        android:layout_below="@id/strut2"
+        android:textSize="20dp"
+        android:id="@+id/strut3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By default, Android Studio displays your project files in the Android view. "></TextView>
+    <ImageView
+        android:layout_below="@id/strut3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/struct1"
+        android:id="@+id/strut4"
+        android:scaleType="fitStart"
+        />
+    <TextView
+        android:layout_below="@id/strut4"
+        android:textSize="20dp"
+        android:id="@+id/strut5"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="manifests"></TextView>
+    <TextView
+        android:layout_below="@id/strut5"
+        android:textSize="15sp"
+        android:id="@+id/strut6"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contains the AndroidManifest.xml file.\nDescribes the nature of the application and each of its components."></TextView>
+    <TextView
+        android:layout_below="@id/strut6"
+        android:textSize="20dp"
+        android:id="@+id/strut7"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java"></TextView>
+    <TextView
+        android:layout_below="@id/strut7"
+        android:textSize="15sp"
+        android:id="@+id/strut8"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contains the Java source code files, separated by package names, including JUnit test code."></TextView>
+    <TextView
+        android:layout_below="@id/strut8"
+        android:textSize="20dp"
+        android:id="@+id/strut9"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="res"></TextView>
+    <TextView
+        android:layout_below="@id/strut9"
+        android:textSize="15sp"
+        android:id="@+id/strut10"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contains all non-code resources, such as XML layouts, UI strings, and bitmap images, divided into corresponding sub-directories."></TextView>
+    <TextView
+        android:layout_below="@id/strut10"
+        android:textSize="20dp"
+        android:id="@+id/strut11"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="build.gradle (module)"></TextView>
+    <TextView
+        android:layout_below="@id/strut11"
+        android:textSize="15sp"
+        android:id="@+id/strut12"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="his defines the module-specific build configurations.">
+    </TextView>
+    <TextView
+        android:layout_below="@id/strut12"
+        android:textSize="20dp"
+        android:id="@+id/strut13"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="build.gradle (project)"></TextView>
+    <TextView
+        android:layout_below="@id/strut13"
+        android:textSize="15sp"
+        android:id="@+id/strut14"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This defines your build configuration that apply to all modules. This file is integral to the project, so you should maintain them in revision control with all other source code.">
+    </TextView>
+
+</RelativeLayout>
+</ScrollView>

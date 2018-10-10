@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitylifecycle">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Activity Lifecycle -->
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/act1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity"></TextView>
+    <TextView
+        android:layout_below="@id/act1"
+        android:textSize="15sp"
+        android:id="@+id/act2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity"></TextView>
+    <ImageView
+        android:layout_below="@id/act2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/act1"
+        android:id="@+id/act4"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@id/act4"
+        android:textSize="20sp"
+        android:id="@+id/act5"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What activities do?"></TextView>
+    <TextView
+        android:layout_below="@id/act5"
+        android:textSize="15sp"
+        android:id="@+id/act6"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity2"></TextView>
+    <TextView
+        android:layout_below="@id/act6"
+        android:textSize="20sp"
+        android:id="@+id/act7"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How do I know when Activity is visible to user/paused/stopped? "></TextView>
+    <TextView
+        android:layout_below="@id/act7"
+        android:textSize="15sp"
+        android:id="@+id/act8"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity3"></TextView>
+    <TextView
+        android:layout_below="@id/act8"
+        android:textSize="20sp"
+        android:id="@+id/act9"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is call back method? "></TextView>
+    <TextView
+        android:layout_below="@id/act9"
+        android:textSize="15sp"
+        android:id="@+id/act10"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity4"></TextView>
+    <TextView
+        android:layout_below="@id/act10"
+        android:textSize="20sp"
+        android:id="@+id/act11"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Lifecycle \nWhat happens when user clicks on the application icon?"></TextView>
+    <TextView
+        android:layout_below="@id/act11"
+        android:textSize="15sp"
+        android:id="@+id/act12"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Three methods call.\n1.onCreate()\n2.onStart()\n3.onResume()"></TextView>
+    <TextView
+        android:layout_below="@id/act12"
+        android:textSize="20sp"
+        android:id="@+id/act13"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What happens when user actually tries to pause your application?"></TextView>
+    <TextView
+        android:layout_below="@id/act13"
+        android:textSize="15sp"
+        android:id="@+id/act14"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.onPause()\n2.onStop()"></TextView>
+    <TextView
+        android:layout_below="@id/act14"
+        android:textSize="20sp"
+        android:id="@+id/act15"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What happens when you go back to your application?"></TextView>
+    <TextView
+        android:layout_below="@id/act15"
+        android:textSize="15sp"
+        android:id="@+id/act16"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.onRestart()\n2.onStart()\n3.onResume()\nonDestroy() is called when you manually stop your application to free the memory."></TextView>
+    <TextView
+        android:layout_below="@id/act16"
+        android:textSize="20sp"
+        android:id="@+id/act17"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When you’ve dialog box which partially blocks your screen, only onPause() is called.\nWhen you’ve something which blocks your whole screen, at that time onPause() and onStop() is called."></TextView>
+    <TextView
+        android:layout_below="@id/act17"
+        android:textSize="20sp"
+        android:id="@+id/act18"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When your activity is called.\nThis is where when your user is attracting with your application. All the attraction comes under this place."/>
+    <ImageView
+        android:layout_below="@id/act18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/act2"
+        android:id="@+id/act19"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/act19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/act3"
+        android:id="@+id/act20"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/act20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/act4"
+        android:id="@+id/act21"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/act21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/act5"
+        android:id="@+id/act22"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/act22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/act6"
+        android:id="@+id/act26"
+        android:scaleType="fitStart" />
+
+</RelativeLayout>
+
+</ScrollView>

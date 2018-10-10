@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intents">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <!-- Intents -->
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/int1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intents:"></TextView>
+    <TextView
+        android:layout_below="@id/int1"
+        android:textSize="15sp"
+        android:id="@+id/int2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent means many different meaning in different situations."></TextView>
+    <TextView
+         android:layout_below="@id/int2"
+        android:textSize="20sp"
+        android:id="@+id/int3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="There’re four building blocks in Android"></TextView>
+    <ImageView
+        android:layout_below="@id/int3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent1"
+        android:id="@+id/int4"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent2"
+        android:id="@+id/int5"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent3"
+        android:id="@+id/int6"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent4"
+        android:id="@+id/int7"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent5"
+        android:id="@+id/int8"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent6"
+        android:id="@+id/int9"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent7"
+        android:id="@+id/int10"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent8"
+        android:id="@+id/int11"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent9"
+        android:id="@+id/int12"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent10"
+        android:id="@+id/int13"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent11"
+        android:id="@+id/int14"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent12"
+        android:id="@+id/int15"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/int15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intent13"
+        android:id="@+id/int16"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@id/int16"
+        android:textSize="15sp"
+        android:id="@+id/int17"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intent"></TextView>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!-- Views -->
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/view1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is View in Android App Development?"></TextView>
+    <TextView
+        android:layout_below="@id/view1"
+        android:textSize="15sp"
+        android:id="@+id/view2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/views"></TextView>
+    <TextView
+        android:layout_below="@id/view2"
+        android:textSize="20sp"
+        android:id="@+id/view3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Groups in Android App Development?"></TextView>
+    <TextView
+        android:layout_below="@id/view3"
+        android:textSize="15sp"
+        android:id="@+id/view4"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view2"></TextView>
+    <ImageView
+        android:layout_below="@id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/views"
+        android:id="@+id/view5"
+        android:scaleType="fitStart" />
+</RelativeLayout>
+
+</ScrollView>

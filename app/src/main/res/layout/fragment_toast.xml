@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".toast">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Toast & Alert Dialog -->
+    <TextView
+        android:textSize="21sp"
+        android:id="@+id/toast1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast"></TextView>
+    <TextView
+        android:layout_below="@id/toast1"
+        android:textSize="16sp"
+        android:id="@+id/toast2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast1"></TextView>
+    <ImageView
+        android:layout_below="@id/toast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toast1"
+        android:id="@+id/toast3"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@id/toast3"
+        android:textSize="21sp"
+        android:id="@+id/toast4"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why we use Toast"></TextView>
+    <TextView
+        android:layout_below="@id/toast4"
+        android:textSize="16sp"
+        android:id="@+id/toast5"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast2"></TextView>
+    <TextView
+        android:layout_below="@id/toast5"
+        android:textSize="21sp"
+        android:id="@+id/toast6"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example"></TextView>
+    <ImageView
+        android:layout_below="@id/toast6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toast2"
+        android:id="@+id/toast7"
+        android:scaleType="fitStart"/>
+    <TextView
+        android:layout_below="@id/toast7"
+        android:textSize="21sp"
+        android:id="@+id/toast8"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to create Toast Object?"></TextView>
+    <TextView
+        android:gravity="center"
+        android:layout_below="@id/toast8"
+        android:textSize="21sp"
+        android:id="@+id/toast9"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast toast = Toast.makeText(Context c, CharSequence text, int duration)"></TextView>
+    <TextView
+        android:layout_below="@id/toast9"
+        android:textSize="16sp"
+        android:id="@+id/toast10"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast3"></TextView>
+    <ImageView
+        android:layout_below="@id/toast10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toast4"
+        android:id="@+id/toast11"
+        android:scaleType="fitStart"/>
+    <TextView
+        android:layout_below="@id/toast11"
+        android:textSize="16sp"
+        android:id="@+id/toast12"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast4"></TextView>
+    <ImageView
+        android:layout_below="@id/toast12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toast3"
+        android:id="@+id/toast13"
+        android:scaleType="fitStart"/>
+    <TextView
+        android:layout_below="@id/toast13"
+        android:textSize="21sp"
+        android:id="@+id/alert1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"></TextView>
+    <TextView
+        android:layout_below="@id/alert1"
+        android:textSize="16sp"
+        android:id="@+id/alert2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert1"></TextView>
+    <TextView
+        android:layout_below="@id/alert2"
+        android:textSize="16sp"
+        android:id="@+id/alert3"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alert2"></TextView>
+    <TextView
+        android:layout_below="@id/alert3"
+        android:textSize="21sp"
+        android:id="@+id/alert4"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method &amp;Description"></TextView>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="public AlertDialog.Builder setTitle(CharSequence)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method is used to set the title of AlertDialog."></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="public AlertDialog.Builder setMessage(CharSequence)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method is used to set the message for AlertDialog."></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="public AlertDialog.Builder setIcon(int)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method is used to set the icon over AlertDialog."></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
+</ScrollView>

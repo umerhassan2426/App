@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidStudio">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Android Setup -->
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/setup1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Requirements:"></TextView>
+    <TextView
+        android:layout_below="@+id/setup1"
+        android:textSize="15sp"
+        android:id="@+id/setup2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. JDK 8 or later version.\n2. Java Runtime Environment(JRE) \n3. Download  IDE Android Studio/Eclipse/Netbeans But officially Android Studio is the recommended IDE for developing Android Projects.">
+    </TextView>
+
+    <TextView
+        android:layout_below="@id/setup2"
+        android:textSize="20sp"
+        android:id="@+id/setup3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Installation"></TextView>
+    <TextView
+        android:layout_below="@id/setup3"
+        android:textSize="15sp"
+        android:id="@+id/setup4"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Android Studio.\n1.Mention JDK path \n2.Check all components which are required to create Android Applications \n3.Specify the local machine path for Android Studio and Android SDK"></TextView>
+    <ImageView
+        android:layout_below="@id/setup4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setup"
+        android:id="@+id/setup5"
+        android:scaleType="fitStart"
+        />
+    <ImageView
+        android:layout_below="@id/setup5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/studio"
+        android:id="@+id/setup6"
+        android:scaleType="fitStart"
+        />
+    <TextView
+        android:scaleType="fitStart"
+        android:layout_below="@id/setup6"
+        android:textSize="15sp"
+        android:id="@+id/setup7"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.It would take some time to finish the installation, after this hit the finish button and enjoy Android Studio IDE."></TextView>
+
+</RelativeLayout>
+</ScrollView>

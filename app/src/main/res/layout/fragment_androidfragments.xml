@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".androidfragments">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Fragments -->
+    <TextView
+        android:textSize="21sp"
+        android:id="@+id/frag1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragments"></TextView>
+    <TextView
+        android:layout_below="@id/frag1"
+        android:textSize="16sp"
+        android:id="@+id/frag2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag1"></TextView>
+    <ImageView
+        android:layout_below="@id/frag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frag2"
+        android:id="@+id/frag3"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@+id/frag3"
+        android:textSize="21sp"
+        android:id="@+id/frag4"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why do we need Fragments?"></TextView>
+    <TextView
+        android:layout_below="@id/frag4"
+        android:textSize="16sp"
+        android:id="@+id/frag5"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag2"></TextView>
+    <TextView
+        android:layout_below="@+id/frag5"
+        android:textSize="21sp"
+        android:id="@+id/frag6"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uses of Fragments"></TextView>
+    <TextView
+        android:layout_below="@id/frag6"
+        android:textSize="16sp"
+        android:id="@+id/frag7"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag3"></TextView>
+    <TextView
+        android:layout_below="@+id/frag7"
+        android:textSize="21sp"
+        android:id="@+id/frag8"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Types of Fragments"></TextView>
+    <TextView
+        android:layout_below="@id/frag8"
+        android:textSize="16sp"
+        android:id="@+id/frag9"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag4"></TextView>
+    <TextView
+        android:layout_below="@+id/frag9"
+        android:textSize="21sp"
+        android:id="@+id/frag10"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lifecycle of Fragments"></TextView>
+    <ImageView
+        android:layout_below="@id/frag10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frag1"
+        android:id="@+id/frag11"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@+id/frag11"
+        android:textSize="21sp"
+        android:id="@+id/frag12"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Manger"></TextView>
+    <TextView
+        android:layout_below="@id/frag12"
+        android:textSize="16sp"
+        android:id="@+id/frag13"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag5"></TextView>
+
+    <ImageView
+        android:layout_below="@id/frag13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frag3"
+        android:id="@+id/frag15"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@+id/frag15"
+        android:textSize="21sp"
+        android:id="@+id/frag16"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Transaction "></TextView>
+    <TextView
+        android:layout_below="@id/frag16"
+        android:textSize="16sp"
+        android:id="@+id/frag17"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frag6"></TextView>
+</RelativeLayout>
+</ScrollView>

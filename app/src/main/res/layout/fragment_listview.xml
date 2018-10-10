@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listview">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- Listview-->
+        <TextView
+            android:textSize="21sp"
+            android:id="@+id/list1"
+            android:textColor="@color/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the List View? "></TextView>
+        <TextView
+            android:layout_below="@id/list1"
+            android:textSize="16sp"
+            android:id="@+id/list2"
+            android:textColor="@color/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list1"></TextView>
+        <TextView
+            android:layout_below="@id/list2"
+            android:textSize="21sp"
+            android:id="@+id/list3"
+            android:textColor="@color/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Displaying large and complex amount of data "></TextView>
+        <TextView
+            android:layout_below="@id/list3"
+            android:textSize="16sp"
+            android:id="@+id/list4"
+            android:textColor="@color/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list2"></TextView>
+        <ImageView
+            android:layout_below="@id/list4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list1"
+            android:id="@+id/list5"
+            android:scaleType="fitStart" />
+        <TextView
+            android:layout_below="@id/list5"
+            android:textSize="21sp"
+            android:id="@+id/list6"
+            android:textColor="@color/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Working of List View "></TextView>
+        <TextView
+            android:layout_below="@id/list6"
+            android:textSize="16sp"
+            android:id="@+id/list7"
+            android:textColor="@color/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list3"></TextView>
+        <TextView
+            android:layout_below="@id/list7"
+            android:textSize="21sp"
+            android:id="@+id/list8"
+            android:textColor="@color/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to make a simple list view "></TextView>
+        <TextView
+            android:layout_below="@id/list8"
+            android:textSize="16sp"
+            android:id="@+id/list9"
+            android:textColor="@color/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list4"></TextView>
+        <ImageView
+            android:layout_below="@id/list9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list2"
+            android:id="@+id/list10"
+            android:scaleType="fitStart" />
+        <ImageView
+            android:layout_below="@id/list10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list3"
+            android:id="@+id/list11"
+            android:scaleType="fitStart" />
+        <ImageView
+            android:layout_below="@id/list11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list4"
+            android:id="@+id/list12"
+            android:scaleType="fitStart" />
+        <ImageView
+            android:layout_below="@id/list12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list5"
+            android:id="@+id/list13"
+            android:scaleType="fitStart" />
+        <TextView
+            android:layout_below="@id/list13"
+            android:textSize="16sp"
+            android:id="@+id/list14"
+            android:textColor="@color/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list5"></TextView>
+        <TextView
+            android:layout_below="@id/list14"
+            android:textSize="16sp"
+            android:id="@+id/list15"
+            android:textColor="@color/Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/list6"></TextView>
+        <ImageView
+            android:layout_below="@id/list15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list6"
+            android:id="@+id/list16"
+            android:scaleType="fitStart" />
+
+    </RelativeLayout>
+</ScrollView>

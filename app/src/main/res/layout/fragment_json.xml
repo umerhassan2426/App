@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".json">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- JSON Parsing -->
+    <TextView
+        android:textSize="21sp"
+        android:id="@+id/json1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JSON Parsing"></TextView>
+    <TextView
+        android:layout_below="@id/json1"
+        android:textSize="16sp"
+        android:id="@+id/json2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/json"></TextView>
+    <TextView
+        android:layout_below="@id/json2"
+        android:textSize="16sp"
+        android:id="@+id/json3"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For parsing a JSON object, we will create an object of class JSONObject and specify a string containing JSON data to it. Its syntax is"></TextView>
+    <ImageView
+        android:layout_below="@id/json3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/json"
+        android:id="@+id/json4"
+        android:scaleType="fitStart" />
+    <ImageView
+        android:layout_below="@id/json4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/json1"
+        android:id="@+id/json5"
+        android:scaleType="fitStart" />
+    <TextView
+        android:layout_below="@id/json5"
+        android:textSize="21sp"
+        android:id="@+id/json6"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Method &amp; description"></TextView>
+
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get(String name)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method just Returns the value but in the form of Object type"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getBoolean(String name)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method returns the boolean value specified by the key"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getDouble(String name)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method returns the double value specified by the key"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getInt(String name)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method returns the integer value specified by the key"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getLong(String name)"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method returns the long value specified by the key"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="length()"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method returns the number of name/value mappings in this object."></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:gravity="start"
+        android:background="@color/green"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="names()"></TextView>
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This method returns an array containing the string names in this object."></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
+</ScrollView>

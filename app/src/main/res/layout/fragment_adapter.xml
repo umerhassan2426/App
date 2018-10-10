@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adapter">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Adapter Class -->
+    <TextView
+        android:textSize="21sp"
+        android:id="@+id/adap1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What is an Adapter ? "></TextView>
+    <TextView
+        android:layout_below="@id/adap1"
+        android:textSize="16sp"
+        android:id="@+id/adap2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter1"></TextView>
+    <TextView
+        android:layout_below="@id/adap2"
+        android:textSize="21sp"
+        android:id="@+id/adap3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why Adapter?  "></TextView>
+    <TextView
+        android:layout_below="@id/adap3"
+        android:textSize="16sp"
+        android:id="@+id/adap4"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter2"></TextView>
+    <TextView
+        android:layout_below="@id/adap4"
+        android:textSize="16sp"
+        android:id="@+id/adap5"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter3"></TextView>
+    <TextView
+        android:layout_below="@id/adap5"
+        android:textSize="16sp"
+        android:id="@+id/adap6"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter4"></TextView>
+    <TextView
+    android:layout_below="@id/adap6"
+    android:textSize="16sp"
+    android:id="@+id/adap7"
+    android:textColor="@color/Text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/adapter5"></TextView>
+    <TextView
+        android:layout_below="@id/adap7"
+        android:textSize="16sp"
+        android:id="@+id/adap8"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter6"></TextView>
+    <TextView
+        android:layout_below="@id/adap8"
+        android:textSize="21sp"
+        android:id="@+id/adap9"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Types of Adapter Views"></TextView>
+    <TextView
+        android:layout_below="@id/adap9"
+        android:textSize="16sp"
+        android:id="@+id/adap10"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter7"></TextView>
+    <TextView
+        android:layout_below="@id/adap10"
+        android:textSize="21sp"
+        android:id="@+id/adap11"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type of data sources\nThere are many types of data sources, but three are basic types."></TextView>
+    <TextView
+        android:layout_below="@id/adap11"
+        android:textSize="16sp"
+        android:id="@+id/adap12"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adapter8"></TextView>
+</RelativeLayout>
+
+</ScrollView>

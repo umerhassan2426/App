@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Androidintroduction">
+
+    <!-- Android Introduction -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/intro1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"></TextView>
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/intro2"
+        android:layout_below="@+id/intro1"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Intro"></TextView>
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/intro3"
+        android:layout_below="@+id/intro2"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History"></TextView>
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/intro4"
+        android:layout_below="@+id/intro3"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Detail"></TextView>
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/intro5"
+        android:layout_below="@+id/intro4"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Versions"></TextView>
+    <ImageView
+        android:layout_below="@id/intro5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/versions"
+        android:id="@+id/intro6"
+        android:scaleType="fitStart" />
+
+    <TextView
+        android:layout_below="@id/intro6"
+        android:textSize="20sp"
+        android:id="@+id/intro7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 1.0 \nSeptember 2008">
+    </TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro7"/>
+    <TextView
+        android:layout_below="@id/intro7"
+        android:textSize="20dp"
+        android:id="@+id/intro8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 1.5 Cupcake \nApril 2009"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro8"/>
+    <TextView
+        android:layout_below="@id/intro8"
+        android:textSize="20dp"
+        android:id="@+id/intro9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 1.6 Donut \nSeptember 2009"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro9"/>
+    <TextView
+        android:layout_below="@id/intro9"
+        android:textSize="20dp"
+        android:id="@+id/intro10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 2.0-2.1 Eclair \nOctober 2009"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro10"/>
+    <TextView
+        android:layout_below="@id/intro10"
+        android:textSize="20dp"
+        android:id="@+id/intro11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 2.2 Froyo \nMay 2010"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro10"/>
+    <TextView
+        android:layout_below="@id/intro11"
+        android:textSize="20dp"
+        android:id="@+id/intro12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 2.3-2.3.7 Gingerbread \n2010"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro11"/>
+    <TextView
+        android:layout_below="@id/intro12"
+        android:textSize="20dp"
+        android:id="@+id/intro13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 4.0 Ice Cream\nOctober 2011"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro12"/>
+    <TextView
+        android:layout_below="@id/intro13"
+        android:textSize="20dp"
+        android:id="@+id/intro14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 4.1-4.3 Jelly Bean\nJuly 2012"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro13"/>
+    <TextView
+        android:layout_below="@id/intro14"
+        android:textSize="20dp"
+        android:id="@+id/intro15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 4.4 KitKat \nOctober 2013"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro14"/>
+    <TextView
+        android:layout_below="@id/intro15"
+        android:textSize="20dp"
+        android:id="@+id/intro16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 5.0-5.1 Lollipop\nNovember 2014"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro15"/>
+    <TextView
+        android:layout_below="@id/intro16"
+        android:textSize="20dp"
+        android:id="@+id/intro17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 6.0 Marshmallow \nOctober 2015"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro16"/>
+    <TextView
+        android:layout_below="@id/intro17"
+        android:textSize="20dp"
+        android:id="@+id/intro18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 7.0-7.1 Nougat\nAugust 2016"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro17"/>
+    <TextView
+        android:layout_below="@id/intro18"
+        android:textSize="20dp"
+        android:id="@+id/intro19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 8.0-8.1 \nAugust 2017"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro18"/>
+    <TextView
+        android:layout_below="@id/intro19"
+        android:textSize="20dp"
+        android:id="@+id/intro20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 9.0 Pie\nAugust 2018"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lightgray"
+        android:layout_margin="10dp"
+        android:layout_below="@id/intro19"/>
+
+</LinearLayout>
+
+
+
+
+</ScrollView>

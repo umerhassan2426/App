@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Firstapp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!-- First App-->
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/app1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Android Project \nStep 1:"></TextView>
+    <TextView
+        android:layout_below="@id/app1"
+        android:textSize="15sp"
+        android:id="@+id/app2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mention Application Name and Package Name and Click Next Button"></TextView>
+    <ImageView
+        android:layout_below="@id/app2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/firstapp"
+        android:id="@+id/app3"
+        android:scaleType="fitStart"
+        />
+    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/app3"
+        android:textSize="20dp"
+        android:id="@+id/app4"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 2:"></TextView>
+    <TextView
+        android:layout_below="@id/app4"
+        android:textSize="15sp"
+        android:id="@+id/app5"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Phone and Tablet in Target Android Devices and Click Next Button"></TextView>
+    <ImageView
+        android:layout_below="@id/app5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app2"
+        android:id="@+id/app6"
+        android:scaleType="fitStart"
+        />
+    <TextView
+
+        android:layout_below="@id/app6"
+        android:textSize="20dp"
+        android:id="@+id/app7"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 3:"></TextView>
+    <TextView
+        android:layout_below="@id/app7"
+        android:textSize="15sp"
+        android:id="@+id/app8"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Empty Activity and Click Next Button"></TextView>
+    <ImageView
+        android:layout_below="@id/app8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app3"
+        android:id="@+id/app9"
+        android:scaleType="fitStart"
+        />
+    <TextView
+
+        android:layout_below="@id/app9"
+        android:textSize="20dp"
+        android:id="@+id/app10"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 4:"></TextView>
+    <TextView
+        android:layout_below="@id/app10"
+        android:textSize="15sp"
+        android:id="@+id/app11"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mention Empty Activity Name"></TextView>
+    <ImageView
+        android:layout_below="@id/app11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app4"
+        android:id="@+id/app12"
+        android:scaleType="fitStart"
+        />
+    <TextView
+
+        android:layout_below="@id/app12"
+        android:textSize="20dp"
+        android:id="@+id/app13"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step 5:"></TextView>
+    <TextView
+        android:layout_below="@id/app13"
+        android:textSize="15sp"
+        android:id="@+id/app14"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="After processing  Android Studio opens an IDE which looks as:"></TextView>
+    <ImageView
+        android:layout_below="@id/app14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app5"
+        android:id="@+id/app15"
+        android:scaleType="fitStart"
+        />
+    <TextView
+        android:layout_below="@id/app15"
+        android:textSize="15sp"
+        android:id="@+id/app16"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To run an app in Android Studio, you can click the green arrow in the menu bars at the top:"></TextView>
+    <ImageView
+        android:layout_below="@id/app16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app6"
+        android:id="@+id/app17"
+        android:scaleType="fitStart"
+        />
+    <TextView
+
+        android:layout_below="@id/app17"
+        android:textSize="20dp"
+        android:id="@+id/app18"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Output:"></TextView>
+    <ImageView
+        android:layout_below="@id/app18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app7"
+        android:id="@+id/app19"
+        android:scaleType="fitStart"
+        />
+</RelativeLayout>
+
+</ScrollView>

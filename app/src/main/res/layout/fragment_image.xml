@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".image">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/xml4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circlebackorange"
+        android:padding="10dp"
+        android:src="@drawable/xml"></ImageView>
+    <ImageView
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/xml4"
+        android:id="@+id/java4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circlebackyellow"
+        android:padding="10dp"
+        android:src="@drawable/java"></ImageView>
+    <ImageView
+        android:layout_marginLeft="75dp"
+        android:layout_toRightOf="@+id/java4"
+        android:id="@+id/play4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/circlebackgreen"
+        android:padding="10dp"
+        android:src="@drawable/play" />
+
+
+    <FrameLayout
+        android:layout_below="@+id/play4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageviews">
+
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shared">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Shared Preferences: -->
+    <TextView
+
+        android:textSize="21sp"
+        android:id="@+id/shared1"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preferences:"></TextView>
+    <TextView
+        android:layout_below="@id/shared1"
+        android:textSize="16sp"
+        android:id="@+id/shared2"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shared1"></TextView>
+    <TextView
+        android:layout_below="@+id/shared2"
+        android:textSize="21sp"
+        android:id="@+id/shared3"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What are Shared Preferences?"></TextView>
+    <TextView
+        android:layout_below="@id/shared3"
+        android:textSize="16sp"
+        android:id="@+id/shared4"
+        android:textColor="@color/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shared2"></TextView>
+    <TextView
+        android:layout_below="@+id/shared4"
+        android:textSize="21sp"
+        android:id="@+id/shared5"
+        android:textColor="@color/Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to access shared preference file?"></TextView>
+    <ImageView
+        android:layout_below="@id/shared5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shared2"
+        android:id="@+id/shared6"
+        android:scaleType="fitStart" />
+
+</RelativeLayout>
+</ScrollView>

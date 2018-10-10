@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Softwarestack">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Software Stack -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Heading"
+        android:text="Android Software Stack"
+        android:id="@+id/soft1"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Text"
+        android:id="@+id/soft2"
+        android:textSize="15sp"
+        android:layout_below="@+id/soft1"
+        android:text="Android is an open source, Linux-based software stack created for a wide array of devices and form factors.\nThe following diagram shows the major components of the Android platform." />
+    <ImageView
+        android:layout_below="@id/soft2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidstack"
+        android:id="@+id/soft3"
+       />
+    <TextView
+        android:layout_below="@id/soft3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Heading"
+        android:text="The Linux Kernel"
+        android:id="@+id/soft4"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_below="@id/soft4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Text"
+        android:text="@string/Kernel"
+        android:id="@+id/soft5"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_below="@id/soft5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Heading"
+        android:text="Libraries"
+        android:id="@+id/soft6"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_below="@id/soft6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Text"
+        android:text="@string/libraries"
+        android:id="@+id/soft7"
+        android:textSize="15sp"/>
+    <TextView
+    android:layout_below="@id/soft7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/Heading"
+    android:text="Android Runtime"
+    android:id="@+id/soft8"
+    android:textSize="20sp"/>
+    <TextView
+        android:layout_below="@id/soft8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Text"
+        android:text="@string/Runtime"
+        android:id="@+id/soft9"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_below="@id/soft9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Heading"
+        android:text="Android Framework"
+        android:id="@+id/soft10"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_below="@id/soft10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Text"
+        android:text="@string/Framework"
+        android:id="@+id/soft11"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_below="@id/soft11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Heading"
+        android:text="Applications"
+        android:id="@+id/soft12"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_below="@id/soft12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Text"
+        android:text="@string/Application"
+        android:id="@+id/soft13"
+        android:textSize="15sp"/>
+</RelativeLayout>
+</ScrollView>
