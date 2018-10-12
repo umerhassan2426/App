@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/act1"
         android:id="@+id/act4"
-        android:scaleType="fitStart" />
+        android:scaleType="centerCrop" />
     <TextView
         android:layout_below="@id/act4"
         android:textSize="20sp"
@@ -148,31 +148,35 @@
         android:layout_height="wrap_content"
         android:src="@drawable/act2"
         android:id="@+id/act19"
-        android:scaleType="fitStart" />
+        android:scaleType="fitStart"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"/>
     <ImageView
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:layout_below="@id/act19"
-        android:layout_width="match_parent"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:src="@drawable/act3"
         android:id="@+id/act20"
         android:scaleType="fitStart" />
     <ImageView
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:layout_below="@id/act20"
-        android:layout_width="match_parent"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:src="@drawable/act4"
         android:id="@+id/act21"
         android:scaleType="fitStart" />
     <ImageView
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:layout_below="@id/act21"
-        android:layout_width="match_parent"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:src="@drawable/act5"
         android:id="@+id/act22"
         android:scaleType="fitStart" />
     <ImageView
         android:layout_below="@id/act22"
-        android:layout_width="match_parent"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
         android:src="@drawable/act6"
         android:id="@+id/act26"
