@@ -151,7 +151,7 @@
         android:scaleType="fitStart"
         android:scrollbarAlwaysDrawHorizontalTrack="true"/>
     <ImageView
-        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        
         android:layout_below="@id/act19"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
