@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "143006723516",
+    "firebase_url": "https://androidlearner-9c7fb.firebaseio.com",
+    "project_id": "androidlearner-9c7fb",
+    "storage_bucket": "androidlearner-9c7fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143006723516:android:c8c267f9e2e8321f",
+        "android_client_info": {
+          "package_name": "com.example.ummiiii.androidlearner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143006723516-ltj6on0eknliu90aolr9m47djdvj3skl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1lxXz1slIROzYSApz0MCiFa7DoREOd2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

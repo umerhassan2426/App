@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ummiiii.androidlearner">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,7 +24,9 @@
         <activity android:name=".Introduction" />
         <activity android:name=".Basic" />
         <activity android:name=".Beginner" />
-        <activity android:name=".Advance"></activity>
+        <activity android:name=".Advance" />
+        <activity android:name=".Quizpart" />
+        <activity android:name=".Result"></activity>
     </application>
 
 </manifest>

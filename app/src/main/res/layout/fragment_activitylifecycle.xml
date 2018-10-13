@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/act1"
         android:id="@+id/act4"
-        android:scaleType="centerCrop" />
+        android:scaleType="fitStart" />
     <TextView
         android:layout_below="@id/act4"
         android:textSize="20sp"
@@ -151,7 +151,7 @@
         android:scaleType="fitStart"
         android:scrollbarAlwaysDrawHorizontalTrack="true"/>
     <ImageView
-        
+
         android:layout_below="@id/act19"
         android:layout_width="500dp"
         android:layout_height="wrap_content"
