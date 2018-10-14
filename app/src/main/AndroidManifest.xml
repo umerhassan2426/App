@@ -15,18 +15,24 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Introduction" />
         <activity android:name=".Basic" />
         <activity android:name=".Beginner" />
         <activity android:name=".Advance" />
         <activity android:name=".Quizpart" />
-        <activity android:name=".Result"></activity>
+        <activity android:name=".Result" />
+        <activity android:name=".login">
+        </activity>
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".resetpassword"></activity>
     </application>
 
 </manifest>
