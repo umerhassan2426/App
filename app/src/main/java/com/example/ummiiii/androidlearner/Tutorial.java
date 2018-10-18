@@ -33,6 +33,7 @@ public class Tutorial extends Fragment {
             @Override
             public void onClick(View v) {
 
+
                 Intent intro = new Intent(getActivity(),Introduction.class);
                 startActivity(intro);
 

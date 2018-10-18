@@ -16,7 +16,9 @@ import android.widget.TextView;
 public class textview extends Fragment {
 
 
+
     public textview() {
+
         // Required empty public constructor
     }
 
@@ -29,6 +31,7 @@ public class textview extends Fragment {
         ImageView xml = (ImageView) view.findViewById(R.id.xml);
         ImageView java = (ImageView) view.findViewById(R.id.java);
         ImageView play = (ImageView) view.findViewById(R.id.play);
+
         xml.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

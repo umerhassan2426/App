@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".progplay">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/login_progress"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@color/colorAccent"
+        android:onClick="loginProgress"
+        android:textColor="@color/white"
+        android:text="Login" />
+    <ProgressBar
+        android:layout_below="@+id/login_progress"
+        android:id="@+id/progress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
 
-</FrameLayout>
+</RelativeLayout>

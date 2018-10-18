@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".adv">
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="7.5">
         <!-- Advance  -->
         <TextView
+            android:layout_weight="0.5"
             android:gravity="center"
-            android:background="@color/colorPrimary"
+            android:background="@color/yello"
             android:textSize="20dp"
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Data Storage"></TextView>
         <TextView
+            android:layout_weight="1"
             android:textSize="20sp"
             android:id="@+id/adv1"
             android:layout_width="match_parent"
@@ -27,32 +33,35 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
         <TextView
             android:textSize="20sp"
             android:id="@+id/adv2"
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Internal Storage"></TextView>
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
         <TextView
             android:textSize="20sp"
             android:id="@+id/adv3"
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="External Storage"></TextView>
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
 
         <TextView
+            android:layout_weight="1"
             android:textSize="20sp"
             android:id="@+id/adv4"
             android:layout_width="match_parent"
@@ -61,18 +70,20 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
 
         <TextView
+            android:layout_weight="0.5"
             android:gravity="center"
-            android:background="@color/colorPrimary"
+            android:background="@color/yello"
             android:textSize="20dp"
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Notifications"></TextView>
         <TextView
+            android:layout_weight="1"
             android:textSize="20sp"
             android:id="@+id/adv5"
             android:layout_width="match_parent"
@@ -81,11 +92,12 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
         <TextView
+            android:layout_weight="0.5"
             android:gravity="center"
-            android:background="@color/colorPrimary"
+            android:background="@color/yello"
             android:textSize="20dp"
             android:textColor="@color/white"
             android:layout_width="match_parent"
@@ -93,6 +105,7 @@
             android:text="Web View"
             ></TextView>
         <TextView
+            android:layout_weight="1"
             android:textSize="20sp"
             android:id="@+id/adv6"
             android:layout_width="match_parent"
@@ -101,9 +114,10 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
 
 
     </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</RelativeLayout>

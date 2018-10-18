@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,10 +7,7 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:background="@color/backgroundcolor">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+
         <TextView
             android:id="@+id/androidintro"
             android:layout_width="371dp"
@@ -20,7 +17,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
 
         <TextView
@@ -32,7 +29,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
         <TextView
             android:id="@+id/studio"
@@ -43,7 +40,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
         <TextView
         android:textSize="20dp"
@@ -54,7 +51,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
         <TextView
             android:textSize="20dp"
@@ -65,9 +62,9 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/lightgray"
+            android:background="@color/black_overlay"
             android:layout_margin="10dp"/>
 
 
     </LinearLayout>
-</ScrollView>
+

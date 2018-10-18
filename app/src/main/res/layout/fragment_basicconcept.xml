@@ -1,226 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".basicconcept">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <!-- Basic -->
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Android Views &amp; Layouts"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Views"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android Layouts"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Activities &amp; Intent"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Activity Lifecycle"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Intents &amp; Types Of Intents"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="35">
+            <!-- Basic -->
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Views &amp; Layouts"></TextView>
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/basic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Views"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/basic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Layouts"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activities &amp; Intent"></TextView>
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/basic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity Lifecycle"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/basic4"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Intents &amp; Types Of Intents"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
 
 
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android User Interface"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="UI Controls"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Event Handling"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Toast &amp; Alert Dialog"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Adapter Class &amp; Adapter Views"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Why Adapter &amp; Types of Adapter Views"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="List View"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android User Interface"></TextView>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/basic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UI Controls"></TextView>
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/basic7"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Event Handling"></TextView>
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/basic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toast &amp; Alert Dialog"></TextView>
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:gravity="center"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adapter Class &amp; Adapter Views"></TextView>
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/basic9"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why Adapter &amp; Types of Adapter Views"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/basic10"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List View"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
 
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android Fragments"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragments"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android Data Storage"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Shared Preferences"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Internal &amp; External Storage"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SQLite Database"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-    <TextView
-        android:gravity="center"
-        android:background="@color/colorPrimary"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Android JSON Parsing"></TextView>
-    <TextView
-        android:textSize="20sp"
-        android:id="@+id/basic16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="JSON Parsing"></TextView>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/lightgray"
-        android:layout_margin="10dp"/>
-</LinearLayout>
-</ScrollView>
+            <TextView
+                android:gravity="center"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Fragments"></TextView>
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/basic5"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragments"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:gravity="center"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android Data Storage"></TextView>
+            <TextView
+                android:textSize="20sp"
+                android:id="@+id/basic12"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shared Preferences"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/basic13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Internal &amp; External Storage"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:id="@+id/basic14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SQLite Database"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/black_overlay"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:background="@color/pink"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android JSON Parsing"></TextView>
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/basic16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JSON Parsing"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="@color/textColor"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

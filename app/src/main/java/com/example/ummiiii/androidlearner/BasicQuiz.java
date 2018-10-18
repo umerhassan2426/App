@@ -18,7 +18,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class Quizpart extends AppCompatActivity {
+public class BasicQuiz extends AppCompatActivity {
     Button b1,b2,b3,b4;
     TextView t1_question , timertxt;
     int total=0;
@@ -29,7 +29,7 @@ public class Quizpart extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quizpart);
+        setContentView(R.layout.activity_basic_quiz);
         b1 = (Button)findViewById(R.id.btn1);
         b2 = (Button)findViewById(R.id.btn2);
         b3 = (Button)findViewById(R.id.btn3);
@@ -39,13 +39,13 @@ public class Quizpart extends AppCompatActivity {
 
 
         updateQuestion();
-        reversetimer(30,timertxt);    }
+        reversetimer(300,timertxt);    }
 
     private void updateQuestion() {
         total++;
-        if(total >5){
+        if(total >30){
             //open result activity
-            Intent i = new Intent(Quizpart.this,Result.class);
+            Intent i = new Intent(BasicQuiz.this,Result.class);
             i.putExtra("total",String.valueOf(total));
             i.putExtra("correct",String.valueOf(correct));
             i.putExtra("incorrect",String.valueOf(wrong));
@@ -75,7 +75,7 @@ public class Quizpart extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         correct++;
-                                        b1.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b1.setBackgroundColor(Color.parseColor("#DEB887"));
 
                                         updateQuestion();
                                     }
@@ -101,10 +101,10 @@ public class Quizpart extends AppCompatActivity {
                                 handler.postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        b1.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b2.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b3.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b4.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b1.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b2.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b3.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b4.setBackgroundColor(Color.parseColor("#DEB887"));
                                         updateQuestion();
                                     }
                                 },1500);
@@ -125,7 +125,7 @@ public class Quizpart extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         correct++;
-                                        b2.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b2.setBackgroundColor(Color.parseColor("#DEB887"));
 
                                         updateQuestion();
                                     }
@@ -151,10 +151,10 @@ public class Quizpart extends AppCompatActivity {
                                 handler.postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        b1.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b2.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b3.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b4.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b1.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b2.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b3.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b4.setBackgroundColor(Color.parseColor("#DEB887"));
                                         updateQuestion();
                                     }
                                 },1500);
@@ -175,7 +175,7 @@ public class Quizpart extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         correct++;
-                                        b3.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b3.setBackgroundColor(Color.parseColor("#DEB887"));
 
                                         updateQuestion();
                                     }
@@ -201,10 +201,10 @@ public class Quizpart extends AppCompatActivity {
                                 handler.postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        b1.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b2.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b3.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b4.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b1.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b2.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b3.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b4.setBackgroundColor(Color.parseColor("#DEB887"));
                                         updateQuestion();
                                     }
                                 },1500);
@@ -227,7 +227,7 @@ public class Quizpart extends AppCompatActivity {
                                     @Override
                                     public void run() {
                                         correct++;
-                                        b4.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b4.setBackgroundColor(Color.parseColor("#DEB887"));
 
                                         updateQuestion();
                                     }
@@ -253,10 +253,10 @@ public class Quizpart extends AppCompatActivity {
                                 handler.postDelayed(new Runnable() {
                                     @Override
                                     public void run() {
-                                        b1.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b2.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b3.setBackgroundColor(Color.parseColor("#03A9F4"));
-                                        b4.setBackgroundColor(Color.parseColor("#03A9F4"));
+                                        b1.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b2.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b3.setBackgroundColor(Color.parseColor("#DEB887"));
+                                        b4.setBackgroundColor(Color.parseColor("#DEB887"));
                                         updateQuestion();
                                     }
                                 },1500);
@@ -292,7 +292,7 @@ public class Quizpart extends AppCompatActivity {
             @Override
             public void onFinish() {
                 tv.setText("Completed");
-                Intent myintent = new Intent(Quizpart.this,Result.class);
+                Intent myintent = new Intent(BasicQuiz.this,Result.class);
                 myintent.putExtra("total",String.valueOf(total));
                 myintent.putExtra("correct",String.valueOf(correct));
                 myintent.putExtra("incorrect",String.valueOf(wrong));

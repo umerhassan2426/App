@@ -25,5 +25,13 @@
     <color name="Text"> #202020</color>
     <color name="bg">  #ABEBC6  </color>
     <color name="backgroundquiz">#03A9F4</color>
+    <color name="metallic">  #D4AF37  </color>
+    <color name="yellow">#FFDF00</color>
+    <color name="blue">  #7B68EE  </color>
+    <color name="redy"> #DC143C	  </color>
+    <color name="wood">#DEB887</color>
+    <color name="lightpurp">#D8BFD8</color>
+
+
 
 </resources>

@@ -6,56 +6,93 @@
     android:layout_height="match_parent"
     tools:context=".Result">
     <TextView
-        android:id="@+id/resultview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="38dp"
-        android:layout_marginTop="69dp"
-        android:text="Total Questions" />
-
-    <TextView
         android:id="@+id/resultview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="180dp"
-        android:text="Correct Answer" />
-
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="@color/Heading"
+        android:text="Your Score" />
     <TextView
-        android:id="@+id/resultview3"
+        android:id="@+id/resultview5"
+        android:textColor="@color/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginBottom="186dp"
-        android:text="Wrong Answer" />
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="80dp"
+        android:textSize="60sp"
+
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/resultview"
+        android:textColor="@color/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:text="Total Questions" />
 
     <TextView
         android:id="@+id/resultview4"
+        android:textSize="20sp"
+        android:textColor="@color/Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView"
-        android:layout_marginEnd="75dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/resultview"
         android:text="TextView" />
 
+
     <TextView
-        android:id="@+id/resultview5"
+        android:textSize="20sp"
+        android:id="@+id/resultview3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/resultview4"
-        android:layout_alignTop="@+id/resultview2"
-        android:text="TextView" />
-
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/resultview"
+        android:text="Wrong Answer" />
     <TextView
+        android:textSize="20sp"
         android:id="@+id/resultview6"
+        android:textColor="@android:color/holo_red_dark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/resultview4"
-        android:layout_alignTop="@+id/resultview3"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/resultview4"
+        android:layout_toRightOf="@+id/resultview3"
         android:text="TextView" />
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/resultview7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:layout_below="@+id/resultview3"
+        android:text="Right Answer:" />
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/resultview8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultview6"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/green"
+        android:layout_toRightOf="@+id/resultview7"
+        android:text="TextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:text="Back TO HOME" />
+
+
 
 </RelativeLayout>

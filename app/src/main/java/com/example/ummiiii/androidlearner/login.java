@@ -33,6 +33,14 @@ public class login extends AppCompatActivity {
         reset = (Button)findViewById(R.id.btn_reset_password);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         auth = FirebaseAuth.getInstance();
+
+        if(auth.getCurrentUser() != null){
+            //close this activity
+            finish();
+            //opening profile activity
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        }
+
     }
 
     public void loginUser(View view){

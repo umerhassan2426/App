@@ -10,6 +10,7 @@
     android:orientation="vertical">
     <!-- UI Controls -->
     <TextView
+
         android:textSize="21sp"
         android:id="@+id/ui1"
         android:textColor="@color/Heading"
